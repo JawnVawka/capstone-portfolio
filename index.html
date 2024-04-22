@@ -3,72 +3,80 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>My Resume</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <h1>Jonathan Vaca</h1>
-    <img src="https://picsum.photos/400/200" alt="Placeholder image until I get a profile photo uploaded">
-
-    <h2>Summary</h2>
-    <p>I'm a musician and twitch streamer who is currently working as a gig worker full time doing Instacart and
-        Grubhub. I'm self motivate and wanting to find a career path I enjoy. I have dabbled in learning different
-        programming languages like C# and Python but still know very little but have a basic understanding of
-        programming. I plan to continue learning and get a better understanding of programming.</p>
-    <h2>Education</h2>
-    <ul>
-        <li>Memorial High School (2002-2005)</li>
-        <li>Tulsa Community College - Associates Degree Libral Arts (2006-2008)</li>
-        <li>Northeastern State University (2008-2010)</li>
-        <li>University of Oklahoma (2010-2011)</li>
-    </ul>
-    <h2>Work Experience</h2>
-    <ul>
-        <li>
-            <h3>Uber - Driver</h3>
-            <p>May 2015 - March 2020</p>
-            <ul>
-                <li>Transport customers to their destination</li>
-                <li>Keep vehicle clean for rider's comfort</li>
-            </ul>
-        </li>
-        <li>
-            <h3>Twitch - Streamer</h3>
-            <p>April 2018 - Present</p>
-        </li>
-        <li>
-            <h3>Instacart - Shopper</h3>
-            <p>November 2020 - Present</p>
-            <ul>
-                <li>Shop on customer's behalf</li>
-                <li>Deliver orders to customers</li>
-                <li>Reach out to concerning their order</li>
-            </ul>
-        </li>
-        <li>
-            <h3>Grubhub - Driver</h3>
-            <p>May 2022 - Present</p>
-            <ul>
-                <li>Deliver orders to customer</li>
-            </ul>
-        </li>
-    </ul>
-    <h2>Skills</h2>
-    <ul>
-        <li>Self-moivated</li>
-        <li>Efficient</li>
-        <li>Computer Skills</li>
-        <li>Knowledge in both Mac and Windows Operating Systems</li>
-        <li>Affinity Suite</li>
-    </ul>
-    <h2>Other</h2>
-    <ul>
-        <li><a href="./public/hobbies.html">Hobbies</a></li>
-        <li><a href="./public/contact.html">Contact Me</a></li>
-    </ul>
-    <footer>
-        <small>© Jonathan Vaca</small>
-    </footer>
+    <div id="hero">
+        <div class="title">
+            <h1>Jawn Vawka</h1>
+            <p>Musician | Streamer | Web Development</p>
+        </div>
+    </div>
+    <div id="about-me">
+        <div class="item about"><img class="about-icon" src="./assets/images/person-circle.svg"
+                alt="person circle icon">
+            <h2>About Me</h2>
+            <p>I'm a musician and twitch streamer who is currently working as a gig worker full time doing Instacart and
+                Grubhub. I'm self motivate and wanting to find a career path I enjoy. I have dabbled in learning
+                different programming languages like C# and Python but still know very little but have a basic
+                understanding of programming. I plan to continue learning and get a better understanding of programming.
+            </p>
+        </div>
+        <div class="item resume">
+            <div class="item-child">
+                <h2>Resume</h2>
+            </div>
+            <div class="item-child2">
+                <h3>Education</h3>
+                <ul>
+                    <li>(2002 - 2005) Memorial High School</li>
+                    <li>(2006 - 2008) Tulsa Community College</li>
+                    <li>(2008 - 2010) Northeastern State University</li>
+                    <li>(2010 - 2011) University of Oklahoma</li>
+                </ul>
+                <h3>Work</h3>
+                <ul class="list-space">
+                    <li>Uber - Driver<br>May 2015 - March 2020</li>
+                    <li>Twitch - Streamer<br>April 2018 - Present</li>
+                    <li>Instacart - Shopper<br>November 2020 - Present</li>
+                    <li>Grubhub - Driver<br>May 2021 - Present</li>
+                </ul>
+            </div>
+            <div class="item-child2">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Self-motivated</li>
+                    <li>Efficient</li>
+                    <li>HTML & CSS Knowledge</li>
+                    <li>Knowledge in both Mac and Windows</li>
+                    <li>Affinity Suite</li>
+                </ul>
+                <img class="resume-icon" src="./assets/images/file-text-fill.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="showcase">
+        <div class="showcase-item1">
+            <h2>Showcase</h2>
+        </div>
+        <div class="showcase-item2">
+            <img src="./assets/images/coding.png" alt="image of computer with code on the screen">
+            <img src="./assets/images/design.png" alt="book design layoug">
+            <img src="./assets/images/music.png" alt="cassette tape">
+        </div>
+    </div>
+    <div id="contact">
+        <h2>Reach Out</h2>
+        <p>If you want to get in touch with me, you can always shoot me an email.</p>
+    </div>
+    <div id="footer">
+        <a href="https://twitch.tv/dankandwatch/about">Twitch</a> |
+        <a href="https://youtube.com/@dankandwatch?si=V9MIt9XA9-MixdHG">YouTube</a> |
+        <a href="https://www.shareplay.tv/DankAndWatch">SharePlay</a> |
+        <a href="https://www.tiktok.com/@dankandwatch">TikTok</a>
+    </div>
 </body>
 
 </html>
